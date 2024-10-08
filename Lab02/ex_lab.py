@@ -16,7 +16,7 @@ def simulate_experiment():
     ball = random.choice(urn)
     return ball
 
-# Run 10000 simulations
+# Run 100000 simulations
 simulations = np.array([simulate_experiment() for _ in range(100000)])
 
 # Calculate probability of drawing a red ball
