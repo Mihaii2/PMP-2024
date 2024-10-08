@@ -81,3 +81,5 @@ plt.ylabel('Frequency')
 plt.show()
 
 print("Mean with 0.3 tails probability: ", simulations_07_tails.mean())
+
+# Conclusion: The distribution becomes flatter as the probability of tails decreases because the mean of the exponential distribution increases(because heads is seen more often so the game goes on for longer on average)
